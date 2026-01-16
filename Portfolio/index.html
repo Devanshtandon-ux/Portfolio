@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Devansh Tandon | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="logo">Devansh</div>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="menu">
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#skills" onclick="toggleMenu()">Skills</a>
+    <a href="#projects" onclick="toggleMenu()">Portfolio</a>
+    <a href="#experience" onclick="toggleMenu()">Experience</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+  </nav>
+</header>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <p class="intro">Hello, I'm</p>
+    <h1>Devansh <span>Tandon</span></h1>
+    <h3>Frontend Developer | Web Developer</h3>
+
+    <!-- SOCIAL ICONS -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/devansh-tandon-995875358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Devanshtandon-ux" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+
+    <p class="desc">
+      I design modern, responsive and user-friendly web interfaces with creativity and performance.
+    </p>
+
+    <!-- RESUME BUTTON -->
+    <a href="Devansh Resume.pdf" download class="resume-btn">
+      <i class="Resume"></i>  Resume
+    </a>
+  </div>
+
+  <div class="hero-image">
+    <div class="photo-frame">
+      <img src="../image/devansh_image_-removebg-preview.png" alt="Devansh">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="box">
+    <h2>About Me</h2>
+    <p>
+      I am an enthusiastic web developer with a strong foundation in HTML, CSS,
+      JavaScript and UI/UX. I enjoy creating clean, elegant designs and continuously
+      improving my skills through real-world projects.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section dark" id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills">
+    <div class="skill"><img src="../image/html-logo.png"><p>HTML</p></div>
+    <div class="skill"><img src="../image/css3-logo.png"><p>CSS</p></div>
+    <div class="skill"><img src="../image/JS-logo.png"><p>JavaScript</p></div>
+    <div class="skill"><img src="../image/sql-3d-icon-png.png"><p>SQL</p></div>
+    <div class="skill"><img src="../image/ui-ux-design.png"><p>UI / UX</p></div>
+    <div class="skill"><img src="../image/data-visualization-flat-vector-icon.avif"><p>Data Visualization</p></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects">
+    <div class="project">
+      <img src="../image/WhatsApp Image 2025-12-26 at 6.23.04 PM.jpeg">
+      <div class="project-content">
+        <h3>Myntra Clone</h3>
+        <p>Responsive frontend UI using HTML & CSS.</p>
+        <a href="https://github.com/Devanshtandon-ux/Myntra-Clone.git">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="../image/WhatsApp Image 2025-12-26 at 6.43.01 PM.jpeg">
+      <div class="project-content">
+        <h3>CareerRoute</h3>
+        <p>Guidance platform using HTML, CSS & JavaScript.</p>
+        <a href="https://github.com/Devanshtandon-ux/Carrer-Route.git">GitHub →</a>
+      </div>
+    </div>
+     <div class="project">
+      <img src="../image/WhatsApp Image 2026-01-05 at 4.25.09 PM.jpeg">
+      <div class="project-content">
+        <h3>fitness tracker</h3>
+        <p>Guidance platform using HTML, CSS & JavaScript.</p>
+        <a href="https://github.com/Devanshtandon-ux/fit-forage.git">GitHub →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section dark" id="experience">
+  <h2 class="section-title">Internship Experience</h2>
+
+  <div class="experience-card">
+    <h3>Full-Stack Intern</h3>
+    <span>Techvanch Innovations, Delhi</span>
+    <small>16 June 2025 – 4 August 2025</small>
+
+    <p>
+      During my internship at Techvanch Innovations, I completed a 45-day intensive
+      training program focused on frontend and backend development. I worked with
+      HTML, CSS, JavaScript, React, Node.js and databases, gaining hands-on experience
+      in full-stack workflows and real-world applications.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p>Email: dev1001tandon@gmail.com</p>
+  <p>Phone: 9910248390</p>
+  <p>Delhi, India</p>
+</section>
+
+<footer>
+  © 2025 Devansh Tandon
+</footer>
+<script>
+  function toggleMenu() {
+    document.querySelector(".menu").classList.toggle("active");
+  }
+</script>
+
+
+</body>
+</html>
